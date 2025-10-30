@@ -1,6 +1,6 @@
 student_name = prompt("Enter your name")
-student_age = Number(prompt("Enter your age"))
-student_marks = Number(prompt("Enter your marks"))
+student_age = (prompt("Enter your age"))
+student_marks = (prompt("Enter your marks"))
 if (student_marks >= 95) {
     alert(`Name: ${student_name}\nAge: ${student_age}\nMarks: ${student_marks}\nGrade: A+\n#Awesome`)
 }
@@ -25,3 +25,4 @@ else if (student_marks >= 40) {
 else {
     alert(`Name: ${student_name}\nAge: ${student_age}\nMarks: ${student_marks}\nResult: FAILED\n#demoted !`)
 }
+
